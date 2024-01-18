@@ -3,10 +3,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 
-function Contact() {
+function Work() {
   
     return (
-      <div className="contact-container">
+      <div className="work-container">
 
         <Header />
       
@@ -17,4 +17,4 @@ function Contact() {
          
   }
   
-  export default Contact;
+  export default Work;
