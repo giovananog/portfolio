@@ -147,3 +147,39 @@ a {
   border-radius: 2em;
 
 }
+
+.contact-content p {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+.resume-field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.email-field {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.email-field h1 {
+  text-align: center;
+  color: white;
+}

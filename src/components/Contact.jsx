@@ -1,20 +1,41 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
+// import Footer from "./Footer";
+import { Button } from 'antd';
+import Email from "./Email";
 
-
-function Contact() {
+function Work() {
   
     return (
       <div className="contact-container">
 
-        <Header />
+       <Header />
+
+       <div className="contact-content">
+            <br/>
+            <br/>
+            <br/>
+            <div className="resume-field">
+            <p>Lorem ipsum dolor sit amet,  nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+            <Button danger style={{ color: 'rgb(11, 25, 38)', border: 'rgb(11, 25, 38)', 
+       textTransform: 'uppercase', fontWeight: 'bold', textAlign: 'center', display: 'block', marginTop: '1%'}}>Check out my resume here</Button>
+            </div>
+            <br/>
+            <hr/>
+            <br/>
+
+            <div className="email-field">
+            <h1>Send me a message!</h1>
+            <Email/>
+            </div>
+            
+         </div>
       
-       <Footer />
+       {/* <Footer /> */}
 
       </div>
     );
          
   }
   
-  export default Contact;
+  export default Work;
