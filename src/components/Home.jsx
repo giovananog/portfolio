@@ -16,8 +16,8 @@ function Home() {
             <hr/>
             <br/>
             <br/>
-            <p >My name is Tonny Luganda, a self taught web developer based in Los angeles California,
-                I'm passionate about creating high fidelity UX/UI designs that greatly impact the people around me. </p>
+            <p >Lorem ipsum dolor sit amet,  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat non proident, sunt in </p>
             </div>
             </div>
          </div>
