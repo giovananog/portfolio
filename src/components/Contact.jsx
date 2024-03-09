@@ -15,9 +15,9 @@ function Work() {
             <br/>
             <br/>
             <div className="resume-field">
-            <p>You can check out my CV and get to know more about my experiences below</p>
-            <Button danger style={{ color: 'rgb(11, 25, 38)', border: 'rgb(11, 25, 38)', 
-       textTransform: 'uppercase', fontWeight: 'bold', textAlign: 'center', display: 'block', marginTop: '1%'}}>My Resume</Button>
+              <p>You can check out my CV and get to know more about my experiences below</p>
+                <Button danger style={{ color: 'rgb(11, 25, 38)', border: 'rgb(11, 25, 38)', 
+                textTransform: 'uppercase', fontWeight: 'bold', textAlign: 'center', display: 'block', marginTop: '1%'}}>My Resume</Button>
             </div>
             <br/>
             <hr/>
