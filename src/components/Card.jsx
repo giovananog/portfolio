@@ -2,7 +2,7 @@ import {React, useState} from "react";
 import { Card } from 'antd';
 const { Meta } = Card;
 
-function MediaCard() {
+function MediaCard(props) {
     const [showInfo, setShowInfo] = useState(true);
 
     function handleMouse() {
@@ -21,8 +21,8 @@ function MediaCard() {
           height: 270,
           color: 'white'
         }}
-        cover={<img alt="example" src="watermarking-project.png" />}>
-        <Meta title="Project Example" description="" style={{color: 'white'}}/>
+        cover={<img alt={props.text} src={props.src}/>}>
+        <Meta title={props.text} description="" style={{color: 'white'}}/>
         </Card>) 
         : 
         (<Card
@@ -36,7 +36,7 @@ function MediaCard() {
             color: 'white'
           }}
         >
-          <Meta description="aaaaaaaaa" style={{ color: 'white' }} />
+          <Meta description={props.desc} style={{ color: 'white' }} />
         </Card>
       )}
       </div>

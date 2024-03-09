@@ -22,18 +22,23 @@ const onFinish = (values) => {
 };
 
 const Email = () => (
-  <Form
+  <Form 
     {...layout}
     name="nest-messages"
     onFinish={onFinish}
     style={{
-      maxWidth: 1000,
+      margin: '2% auto',
+      backgroundColor: '#112532',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
     }}
     validateMessages={validateMessages}
   >
     <Form.Item
       name={['user', 'name']}
       label="Name"
+      // style={{width: '100%',}}
       rules={[
         {
           required: true,
@@ -53,7 +58,7 @@ const Email = () => (
     >
       <Input />
     </Form.Item>
-    <Form.Item name={['user', 'introduction']} label="Introduction" >
+    <Form.Item name={['user', 'Message']} label="Message" >
       <Input.TextArea />
     </Form.Item>
     <Form.Item

@@ -10,10 +10,10 @@ function Footer() {
     return (
       <div className="footer">
       <Space>
-    <IconFont type="icon-github" style={{fontSize:'30px', color:'white'}}/>
-    <IconFont type="icon-facebook" style={{fontSize:'30px', color:'white'}} />
-    <IconFont type="icon-twitter" style={{fontSize:'30px', color:'white'}} />
-  </Space>
+        <a href="https://github.com/giovananog">
+         <IconFont type="icon-github" style={{fontSize:'30px', color:'white'}}/>
+        </a>
+      </Space>
       </div>
     );
   }

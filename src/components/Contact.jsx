@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import { Button } from 'antd';
 import Email from "./Email";
 
@@ -16,9 +16,9 @@ function Work() {
             <br/>
             <br/>
             <div className="resume-field">
-            <p>Lorem ipsum dolor sit amet,  nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+            <p>You can check out my CV and get to know more about my experiences below</p>
             <Button danger style={{ color: 'rgb(11, 25, 38)', border: 'rgb(11, 25, 38)', 
-       textTransform: 'uppercase', fontWeight: 'bold', textAlign: 'center', display: 'block', marginTop: '1%'}}>Check out my resume here</Button>
+       textTransform: 'uppercase', fontWeight: 'bold', textAlign: 'center', display: 'block', marginTop: '1%'}}>My Resume</Button>
             </div>
             <br/>
             <hr/>
@@ -31,7 +31,7 @@ function Work() {
             
          </div>
       
-       {/* <Footer /> */}
+       <Footer />
 
       </div>
     );
