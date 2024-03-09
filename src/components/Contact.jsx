@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Button } from 'antd';
-import Email from "./Email";
 
 function Work() {
   
@@ -25,8 +24,27 @@ function Work() {
             <br/>
 
             <div className="email-field">
-            <h1>Send me a message!</h1>
-            <Email/>
+            <h1>Contact Me</h1>
+
+
+            <div className="contact-page">
+              <div className="contact-field">
+                <h2>Linkedin</h2>
+                <a href="https://www.linkedin.com/in/giovana-nogueira-oliveira">
+                  <p>Giovana Nogueira Oliveira</p>
+                </a>
+              </div>
+
+              <div className="contact-field">
+                <h2>Email</h2>
+                <a href="mailto:giovana.nogueira@sou.unifal-mg.edu.br">
+                  <p>giovana.nogueira@sou.unfial-mg.edu.br</p>
+                </a>
+              </div>
+            </div>
+
+            
+
             </div>
             
          </div>

@@ -84,13 +84,9 @@ a {
   width: 100%;
 }
 
-/* .work-container {
-  overflow: auto;
-} */
 
 .image-work {
   display: block;
-  /* background-color: red; */
   width: 16%;
   height: 30%;
 }
@@ -98,7 +94,6 @@ a {
 .image-work img{
   width: 100%;
   height: 100%;
-  /* background-color: yellow; */
 }
 
 .work-content {
@@ -118,7 +113,6 @@ a {
   text-align: left;
   text-align: center;
   color: white;
-  /* background-color: aqua; */
 }
 
 .projects p {
@@ -131,7 +125,6 @@ a {
 }
 
 .projects p a {
-  /* text-decoration: dotted; */
   text-decoration: dashed;
   color: rgb(0, 161, 161);
 }
@@ -140,7 +133,7 @@ a {
   width: 80%;
   margin: 5em auto;
   height: 80%;
-  background-color:  rgb(24, 40, 55);;
+  background-color:  rgb(24, 40, 55);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -171,15 +164,18 @@ a {
   flex-direction: column;
 }
 
-.email-field {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
-  flex-direction: column;
-  margin-top: 2%;
+.contact-page {
+  margin: 3% 0;
 }
 
-.email-field h1 {
+.contact-field {
   text-align: center;
-  color: white;
+}
+
+.contact-field h2 {
+  color: rgb(149, 170, 191);
+}
+
+.contact-field p {
+  color: rgb(70, 93, 114);
 }

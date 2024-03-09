@@ -21,7 +21,7 @@ function Work() {
             <hr/>
             <br/>
             <br/>
-            <p > I'm currently studying Computer Science at<a href="https://www.unifal-mg.edu.br/dcc/">Universidade Federal de Alfenas</a></p>
+            <p> I'm currently studying Computer Science at<a href="https://www.unifal-mg.edu.br/dcc/">Universidade Federal de Alfenas</a></p>
             </div>
           </div>
          </div>
@@ -37,8 +37,6 @@ function Work() {
                 <MediaCard key={project.name} text={project.name} desc={project.description} src={project.src}/>
               </a>
             )}
-
-
             </div>
             
          </div>
