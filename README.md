@@ -9,9 +9,9 @@ Welcome to my React portfolio, showcasing my projects and experiences as a Compu
 
 
 <div>
-  <img src="public/images/home.png" width="33%">
-  <img src="public/images/work.png" width="33%">
-  <img src="public/images/contact.png" width="33%">
+  <img src="public/images/home.png" width="27%">
+  <img src="public/images/work.png" width="27%">
+  <img src="public/images/contact.png" width="27%">
 </div>
 
 
